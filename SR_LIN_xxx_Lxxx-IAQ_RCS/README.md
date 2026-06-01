@@ -1,6 +1,6 @@
 # IAQ / RCS Sensor Decoder
 
-Payload codec for **IAQ** (Indoor Air Quality) and **RCS** (Room Comfort Sensor) LoRaWAN messages.
+Payload codec for **IAQ** (Indoor Air Quality) and **RCS** (Room Conditions Sensor) LoRaWAN messages.
 
 |        SR_LIN_IAQ_Lxxx          |         SR_LIN_RCS_Lxxx            |
 | :-----------------------------: | :--------------------------------: |
