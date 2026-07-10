@@ -25,10 +25,10 @@ This project includes catch-all wrappers for the following network server format
 
 |      CHANNEL      | LENGTH | DESCRIPTION                                                          |
 | :---------------: | :----: | -------------------------------------------------------------------- |
-|    ch1 amps       |    2   | Channel 1 current <br/>current, unit: Ah, read: uint16 / divisor     |
-|    ch2 amps       |    2   | Channel 2 current <br/>current, unit: Ah, read: uint16 / divisor     |
-|    ch3 amps       |    2   | Channel 3 current <br/>current, unit: Ah, read: uint16 / divisor     |
-|    counter        |    1   | Number of 30 second readings taken <br/> read: uint8                 |
+|    ch1 amps       |    2   | Average RMS current flowing through the conductor monitored by CT Clamp Channel 1. <br/> unit: A, read: uint16 / divisor     |
+|    ch2 amps       |    2   | Average RMS current flowing through the conductor monitored by CT Clamp Channel 2. <br/> unit: A, read: uint16 / divisor     |
+|    ch3 amps       |    2   | Average RMS current flowing through the conductor monitored by CT Clamp Channel 3. <br/> unit: A, read: uint16 / divisor     |
+|    counter        |    1   | Indicates how many 30‑second measurement periods are represented by the reported current values. The current measurements are averaged across all included periods, allowing extended reporting intervals and unacknowledged transmissions to be represented in a single message. <br/> read: uint8                 |
 
 
 ## 📄 3 - Example Decoder Output Format
